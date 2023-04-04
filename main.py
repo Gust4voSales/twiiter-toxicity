@@ -17,7 +17,7 @@ st.set_page_config(
 
       Alunos: [Gustavo Sales](https://www.linkedin.com/in/gust4vo-sales/) e [Joanne Silva](https://www.linkedin.com/in/joannegsilva/)
 
-      [Github]
+      [Github](https://github.com/Gust4voSales/twitter-toxicity)
       """
     }
 )
@@ -50,4 +50,4 @@ if st.session_state['output'] != None:
   else:
     st.error("Usuário não encontrado")
 
-st.markdown('Desenvolvido por [Gustavo Sales](https://www.linkedin.com/in/gust4vo-sales/) e [Joanne Silva](https://www.linkedin.com/in/joannegsilva/). Veja mais informações no Menu')  
+st.markdown('Desenvolvido por [Gustavo Sales](https://www.linkedin.com/in/gust4vo-sales/) e [Joanne Silva](https://www.linkedin.com/in/joannegsilva/). Veja mais informações no Menu.')  

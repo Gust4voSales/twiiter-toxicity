@@ -3,6 +3,7 @@ from tensorflow import keras
 from keras.utils import pad_sequences
 from keras.preprocessing.text import tokenizer_from_json
 from twittes_preprocessing import normalize_text
+import streamlit as st
 import json
 
 def get_twittes(user: str, amount: int):
@@ -15,6 +16,7 @@ def get_twittes(user: str, amount: int):
   content_tweets = [tweet.rawContent for tweet in tweets]
   return content_tweets
 
+@st.cache_resource
 def load_model():
   model = keras.models.load_model('./data/exported/twitter_toxicity_model')
   with open('./data/exported/tokenizer.json') as f:
