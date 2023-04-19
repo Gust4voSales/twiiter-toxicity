@@ -5,10 +5,21 @@ Twitter's Toxicity Measurer ☠
 [TRY THE APP](https://toxidade-twitter.streamlit.app/)
 
 <p align="center">This project aims to measure the level of toxicity of a twitter account (:brazil:) using a neural network model to measure toxicity levels from twittes. It was a project developed in the Neural Networks class from computer science course. UFAPE 2022.1 </p>
-
+ 
 Developers:
 - MANOEL GUSTAVO GALINDO DE SALES
 - JOANNE GABRIELA DOS SANTOS SILVA
+
+<details open> 
+<summary >
+ <h2>🤳 Screenshots</h2>
+</summary>
+
+  <div align="center">
+    <img src=".github/1.png" alt="landing" height="300" >
+    <img src=".github/2.png" alt="filters" height="300">
+  </div>
+</details>
 
 ## 📜 About
   > **_NOTE:_** Since the model was trained with brazilian 🇧🇷 twittes, it will not have a good perfomance with other languages
