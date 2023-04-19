@@ -1,8 +1,8 @@
+[TRY THE APP](https://toxidade-twitter.streamlit.app/) (streamlit free tier might ask you to reboot the app if it has been inactive for a while, do it and wait a little) 
+
 <h1 align="center">
 Twitter's Toxicity Measurer ☠ 
 </h1>
-
-[TRY THE APP](https://toxidade-twitter.streamlit.app/) (streamlit free tier might ask you to reboot the app if it has been inactive for a while, do it and wait a little) 
 
 <p align="center">This project aims to measure the level of toxicity of a twitter account (:brazil:) using a neural network model to measure toxicity levels from twittes. It was a project developed in the Neural Networks class from computer science course. UFAPE 2022.1 </p>
  
@@ -24,7 +24,7 @@ Developers:
 ## 📜 About
   > **_NOTE:_** Since the model was trained with brazilian 🇧🇷 twittes, it will not have a good perfomance with other languages
   ### 🧠 Neural Network 
-  The training data can be found here. It labels brazilian twittes as either toxic or non-toxic (1 or 0). Even though the training data has a normalized column of the twittes, we implemented our own.
+  The training data can be found [here](https://www.kaggle.com/datasets/gedorneto/comentrios-toxicos-ptbr?select=comentarios_toxicos_ptBR.csv). It labels brazilian twittes as either toxic or non-toxic (1 or 0). Even though the training data has a normalized column of the twittes, we implemented our own.
   
   The model was developed using Keras and is very simple: 
   - An Embedding layer, followed by 
