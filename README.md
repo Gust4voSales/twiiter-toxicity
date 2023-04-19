@@ -2,7 +2,7 @@
 Twitter's Toxicity Measurer ☠ 
 </h1>
 
-[TRY THE APP](https://toxidade-twitter.streamlit.app/)
+[TRY THE APP](https://toxidade-twitter.streamlit.app/) (streamlit free tier might ask you to reboot the app if it has been inactive for a while, do it and wait a little) 
 
 <p align="center">This project aims to measure the level of toxicity of a twitter account (:brazil:) using a neural network model to measure toxicity levels from twittes. It was a project developed in the Neural Networks class from computer science course. UFAPE 2022.1 </p>
  
