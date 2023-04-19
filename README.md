@@ -16,8 +16,8 @@ Developers:
 </summary>
 
   <div align="center">
-    <img src=".github/1.png" alt="landing" height="300" >
-    <img src=".github/2.png" alt="filters" height="300">
+    <img src=".github/1.png" alt="landing" height="400" >
+    <img src=".github/2.png" alt="filters" height="500">
   </div>
 </details>
 
